@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Allproject\GITHUB\C-Algorithm\代码随想录Day01 - 数组理论基础\二分查找\BinarySearchApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Allproject\GITHUB\C-Algorithm\代码随想录Day01 - 数组理论基础\二分查找\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE23567A-061C-38BF-A082-A0EE3E9E62E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^D:\ALLPROJECT\GITHUB\C-ALGORITHM\代码随想录DAY01 - 数组理论基础\二分查找\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/二分查找" "-BD:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/二分查找/build" --check-stamp-file "D:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/二分查找/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\ALLPROJECT\GITHUB\C-ALGORITHM\代码随想录DAY01 - 数组理论基础\移除元素\BUILD\CMAKEFILES\E5E51697DA9EEF78D5C3156BB297BEB9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/移除元素" "-BD:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/移除元素/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Allproject/GITHUB/C-Algorithm/代码随想录Day01 - 数组理论基础/移除元素/build/REMOVE_ELEMENTS.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
